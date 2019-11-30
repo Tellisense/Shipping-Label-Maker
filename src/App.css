@@ -1,0 +1,34 @@
+.App-BoxShadow {
+  -webkit-box-shadow: 0px 2px 22px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 22px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 22px -10px rgba(0,0,0,0.75);
+}
+
+
+.weight-mb-large {
+  margin-bottom: 14.58rem;
+}
+
+.weight-mb-small {
+  margin-bottom: 1.2rem;
+}
+
+.shipping-mb-large {
+  margin-bottom: 14.9rem;
+}
+
+.shipping-mb-small {
+  margin-bottom: 1.2rem;
+}
+
+@media print {
+  #printPageButton {
+    display: none;
+  }
+}
+
+#printPageButton {
+  margin-left: 5rem;
+ margin-top: 1.8rem;
+ margin-bottom: 1.8rem;
+}
